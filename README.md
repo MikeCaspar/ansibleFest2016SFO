@@ -23,7 +23,7 @@ ansible-playbook -i Inventory/GROVER/yyz/prod GROVER_test_proxy.yml
 (changes confirmed (or) adjusted (idempotent))
 
 ```bash
--ansible-playbook -i Inventory/GROVER/yyz/prod GROVER_maintain_proxy.yml -u root
+ansible-playbook -i Inventory/GROVER/yyz/prod GROVER_maintain_proxy.yml -u root
 ```
 
 ## run the test_ playbook against an inventory (prod for this example)

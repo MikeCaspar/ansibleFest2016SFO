@@ -1,6 +1,7 @@
 ---
 
-- template:
+- name: Create the sample-conference.txt file in /tmp/conference
+  template:
     src: conference.j2
     dest: /tmp/conference/sample-conference.txt
 

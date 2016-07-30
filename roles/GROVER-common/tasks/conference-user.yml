@@ -1,6 +1,7 @@
 ---
 
-- user:
+- name: ensure the user conference exists
+  user:
     name: conference
     state: present
 

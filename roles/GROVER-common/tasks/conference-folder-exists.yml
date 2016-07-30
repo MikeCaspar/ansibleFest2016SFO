@@ -1,6 +1,7 @@
 ---
 
-- file:
+- name: ensure the folder /tmp/conference exists
+  file:
     path: /tmp/conference
     state: directory
 
