@@ -11,6 +11,12 @@ See [LICENCE](LICENSE) for for restrictions if any
 
 Mike Caspar recently completed a learning deep dive with a team learning Ansible for a large scale incremental infrastructure upgrade. Sharing basics about Ansible's Inventory and Groups features he will break down some of the technical barriers between development and infrastructure by introducing infrastructure as code concepts along with incremental delivery ideas.
 
+## Comments from Mike:
+- A starting pattern for migration. It is expected that as you learn more, you will replace cities and environments with Dynamic versions of the inventories. This approach allows a combination of physically maintained and dynamic inventories.
+- It is likely that some day in the future, you may regroup differently. This is a starting approach.
+- The Slide Presentation to go with this session is available at TBD.
+- To move a machine from any environment to another, simply move it from one inventory to another and re-run maintain. This will also work with dynamic inventory where machines have simply "moved" with an approach appropriate to your environment.
+
 
 ## remove existing configuration for demo
 
