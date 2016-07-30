@@ -27,7 +27,7 @@ ansible-playbook -i Inventory/GROVER/yyz/prod GROVER_test_proxy.yml
 ```
 
 ## run the test_ playbook against an inventory (prod for this example)
-( test should pass (settings confirmed - governance ))
+( test should pass (settings confirmed )) (could also be used for governance )
 
 ```bash
 ansible-playbook -i Inventory/GROVER/yyz/prod GROVER_test_proxy.yml
