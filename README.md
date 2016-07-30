@@ -17,6 +17,8 @@ Mike Caspar recently completed a learning deep dive with a team learning Ansible
 - The Slide Presentation to go with this session is available at TBD.
 - To move a machine from any environment to another, simply move it from one inventory to another and re-run maintain. This will also work with dynamic inventory where machines have simply "moved" with an approach appropriate to your environment.
 
+## Slides available at:
+http://www.slideshare.net/MikeCaspar/testing-for-infrastructure-as-code-for-ansiblefest-2016-64540514
 
 ## remove existing configuration for demo
 
