@@ -3,8 +3,13 @@ Sample Project files for a presentation given at AnsibleFest 2016 in San Francis
 
 See [LICENCE](LICENSE) for for restrictions if any
 
-## Caution: This demo deletes and creates a folder called /tmp/conference
-## Caution: This demo deletes and creates a user called conference
+**Caution:** This demo deletes and creates a folder called /tmp/conference
+
+**Caution:** This demo deletes and creates a user called conference
+
+**Session description:**
+
+Mike Caspar recently completed a learning deep dive with a team learning Ansible for a large scale incremental infrastructure upgrade. Sharing basics about Ansible's Inventory and Groups features he will break down some of the technical barriers between development and infrastructure by introducing infrastructure as code concepts along with incremental delivery ideas.
 
 
 ## remove existing configuration for demo
