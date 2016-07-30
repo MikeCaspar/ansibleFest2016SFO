@@ -1,0 +1,13 @@
+---
+
+- name: Create conference user
+  include: conference-user.yml
+
+- name: Ensure that /tmp/conference folder exists
+  include: conference-folder-exists.yml
+
+- name: Create sample conference.txt file
+  include: sample-conference.yml
+
+
+

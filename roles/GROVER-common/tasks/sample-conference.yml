@@ -1,0 +1,6 @@
+---
+
+- template:
+    src: conference.j2
+    dest: /tmp/conference/sample-conference.txt
+

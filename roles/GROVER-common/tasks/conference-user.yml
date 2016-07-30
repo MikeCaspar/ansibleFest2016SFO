@@ -1,0 +1,9 @@
+---
+
+- user:
+    name: conference
+    state: present
+
+
+
+
