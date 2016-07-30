@@ -1,0 +1,14 @@
+
+
+
+[GROVER_yyz_proxy_prod]
+#yyzproxy1.caspar.com
+localhost connection=localhost
+
+[GROVER_yyz_nginx_prod]
+web1.caspar.com
+
+[GROVER_yyz_jenkins_prod]
+#build4.caspar.com
+
+

@@ -1,0 +1,13 @@
+
+
+
+[yul_proxy_staging]
+yulproxy1.caspar.com
+
+[yul_nginx_staging]
+web1.caspar.com
+
+[yul_jenkins_staging]
+build4.caspar.com
+
+

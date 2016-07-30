@@ -1,0 +1,52 @@
+---
+# Playbook: GROVER_maintain_proxy.yml
+# This playbook Maintains the GROVER Application
+
+
+- name: ensure hosts are setup correctly on proxy servers in yyz
+  hosts: GROVER_yyz_proxy_staging, GROVER_yyz_proxy_dev, GROVER_yyz_proxy_prod
+
+  tasks:
+
+    - block:
+
+      - name: test to confirm that /tmp/conference folder exists
+        stat: path=/tmp/conference
+        register: p
+
+      - assert:
+          that:
+            - p.stat.exists and p.stat.isdir
+
+
+    - block:
+
+      - name: test to confirm that /tmp/conference/sample-conference.txt file exists
+        stat: path=/tmp/conference/sample-conference.txt
+        register: p
+        ignore_errors: true
+
+      - name: Do the assertion (test)
+        assert:
+          that:
+            - p.stat.exists
+
+
+    - block:
+
+      - name: check for user conference and store into variable
+        shell: 'cat /etc/passwd | grep conference'
+        register: p
+        ignore_errors: true
+
+
+      - name: do the assertion (test) to check that we get a positive result (OK)
+        assert:
+          that:
+            - p.rc == 0
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+
+
+
+[WALDO_yul_proxy_staging]
+yulproxy1.caspar.com
+
+[WALDO_yul_nginx_staging]
+web1.caspar.com
+
+[WALDO_yul_jenkins_staging]
+build4.caspar.com
+
+

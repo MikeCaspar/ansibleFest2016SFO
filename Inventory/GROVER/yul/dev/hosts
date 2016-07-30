@@ -1,0 +1,13 @@
+
+
+
+[yul_proxy_dev]
+yyzproxy1.caspar.com
+
+[yul_nginx_dev]
+web1.caspar.com
+
+[yul_jenkins_dev]
+build4.caspar.com
+
+
