@@ -1,7 +1,7 @@
 # ansibleFest2016sampleSFO
 Sample Project files for a presentation given at AnsibleFest 2016 in San Francisco
 
-See [LICENCE](LICENSE) for for restrictions if any
+See [LICENCE](LICENSE) for restrictions if any
 
 **Caution:** This demo deletes and creates a folder called /tmp/conference
 
