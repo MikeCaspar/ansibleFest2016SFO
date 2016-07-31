@@ -14,8 +14,8 @@ Mike Caspar recently completed a learning deep dive with a team learning Ansible
 ## Comments from Mike:
 - A starting pattern for migration. It is expected that as you learn more, you will replace cities and environments with Dynamic versions of the inventories. This approach allows a combination of physically maintained and dynamic inventories.
 - It is likely that some day in the future, you may regroup differently. This is a starting approach.
-- The Slide Presentation to go with this session is available at TBD.
 - To move a machine from any environment to another, simply move it from one inventory to another and re-run maintain. This will also work with dynamic inventory where machines have simply "moved" with an approach appropriate to your environment.
+- Audio for the presentation provided by Ansible URL TBD
 
 ## Slides available at:
 http://www.slideshare.net/MikeCaspar/testing-for-infrastructure-as-code-for-ansiblefest-2016-64540514
