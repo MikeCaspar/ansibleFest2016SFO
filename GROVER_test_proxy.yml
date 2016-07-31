@@ -46,6 +46,22 @@
             - p.rc == 0
 
 
+    - block:
+
+      - name: check that the conference file created in tmp/conference contains the internal domain name
+        shell: "grep '{{ internal_domain_name }}' /tmp/conference/sample-conference.txt"
+        register: result
+        ignore_errors: true
+
+
+      - name: do the assertion (test) to check to ensure that the domain name exists in the destination file
+        assert:
+          that:
+            - result.stdout.find('{{ internal_domain_name }}') != -1
+
+
+
+
 
 
 
