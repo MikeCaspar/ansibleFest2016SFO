@@ -1,6 +1,17 @@
 # ansibleFest2016sampleSFO
 Sample Project files for a presentation given at AnsibleFest 2016 in San Francisco
 
+Important Note
+--------------
+Since the creation of this sample, a project has been started using a more roles based approach to each test.
+
+This can be found at [https://galaxy.ansible.com/MikeCaspar/playbook_test_framework/](https://galaxy.ansible.com/MikeCaspar/playbook_test_framework/) 
+
+This demo has the tasks included within the playbook itself (which can work well to initially learn). 
+
+If you find the approach useful, consider starting with a combination of this type of playbook in combination with test roles (or create and share _test roles of your own to benefit from. Please use the design guidelines provided when doing so and I will work to add your _test roles to the core test framework.
+
+
 See [LICENCE](LICENSE) for restrictions if any
 
 **Caution:** This demo deletes and creates a folder called /tmp/conference
