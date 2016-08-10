@@ -3,7 +3,7 @@ Sample Project files for a presentation given at AnsibleFest 2016 in San Francis
 
 Important Note
 --------------
-**Since the creation of this sample, a project has been started using a more roles based approach to each test.**
+**Since the creation of this sample, a project has been started (August 8, 2016) using a more roles based approach to each test.**
 
 **This can be found at [https://galaxy.ansible.com/MikeCaspar/playbook_test_framework/](https://galaxy.ansible.com/MikeCaspar/playbook_test_framework/)** 
 
